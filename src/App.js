@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-
-import Form from './components/Form'
+import PureComp from './components/PureComp';
+import ParentComp from './components/ParentComp';
 
 
 function App() {
   return (
     <div className="App">
-      <Form />
+      <ParentComp />
     </div>
   );
 }
